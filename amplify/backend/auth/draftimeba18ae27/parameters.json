@@ -1,12 +1,10 @@
 {
-    "identityPoolName": "draftimeba18ae27_identitypool_ba18ae27",
-    "allowUnauthenticatedIdentities": false,
     "resourceNameTruncated": "draftiba18ae27",
     "userPoolName": "draftimeba18ae27_userpool_ba18ae27",
     "autoVerifiedAttributes": [
         "email"
     ],
-    "mfaConfiguration": "OFF",
+    "mfaConfiguration": "OPTIONAL",
     "mfaTypes": [
         "SMS Text Message"
     ],
@@ -32,7 +30,7 @@
     "userpoolClientSetAttributes": false,
     "sharedId": "ba18ae27",
     "resourceName": "draftimeba18ae27",
-    "authSelections": "identityPoolAndUserPool",
+    "authSelections": "userPoolOnly",
     "authRoleArn": {
         "Fn::GetAtt": [
             "AuthRole",
@@ -45,7 +43,15 @@
             "Arn"
         ]
     },
-    "useDefault": "default",
+    "useDefault": "manual",
     "userPoolGroupList": [],
-    "dependsOn": []
+    "dependsOn": [],
+    "userPoolGroups": false,
+    "adminQueries": false,
+    "triggers": "{}",
+    "hostedUI": false,
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": []
 }
