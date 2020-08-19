@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-draftime-dev-221803-authRole",
+            "UnauthRoleArn": "arn:aws:iam::152558206856:role/amplify-draftime-dev-221803-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::152558206856:role/amplify-draftime-dev-221803-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-draftime-dev-221803-deployment",
+            "UnauthRoleName": "amplify-draftime-dev-221803-unauthRole",
+            "StackName": "amplify-draftime-dev-221803",
+            "StackId": "arn:aws:cloudformation:us-east-1:152558206856:stack/amplify-draftime-dev-221803/37196e60-e1c2-11ea-8ba6-0a6046b66d41",
+            "AmplifyAppId": "d16wcbjx93rh36"
+        },
+        "categories": {
+            "auth": {
+                "draftimeba18ae27": {}
+            }
+        }
+    }
+}
